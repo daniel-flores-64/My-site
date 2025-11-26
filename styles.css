@@ -1,0 +1,20 @@
+:root{
+    --main:#1e1e1e;
+    --secondary:#060649;
+    --text:white;
+    --text-sh: #123683;
+}
+h1{
+    font-size: 4vw;text-shadow: 2px 5px var(--text-sh);
+}
+body{
+    background-image: linear-gradient(#2c2c2c75, #2c2c2c75), url(blackBackground.jpg);
+    color: var(--text);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;    
+ }
+ a{
+    color: rgb(64, 176, 241);
+ }
