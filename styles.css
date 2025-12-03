@@ -7,14 +7,23 @@
 h1{
     font-size: 4vw;text-shadow: 2px 5px var(--text-sh);
 }
+a{
+    color: rgb(64, 176, 241);
+}
+ 
 body{
     background-image: linear-gradient(#2c2c2c75, #2c2c2c75), url(blackBackground.jpg);
     color: var(--text);
     text-align: center;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;    
- }
- a{
-    color: rgb(64, 176, 241);
- }
+    flex-wrap: wrap;
+    top: 2vh;
+}
+body > div{
+    padding: 0 2vh;
+}
+.titulos{
+    display: flex;
+    flex-direction: row;
+}
